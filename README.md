@@ -7,7 +7,7 @@ vue-on-click-outside is a [Vue](https://vuejs.org/) directive which calls a meth
 ```bash
 npm install vue-on-click-outside --save
 
-// or if you prefer yarn
+# or if you prefer yarn
 yarn add vue-on-click-outside
 ```
 
