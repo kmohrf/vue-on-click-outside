@@ -1,0 +1,35 @@
+{
+  "name": "vue-on-click-outside",
+  "version": "0.1.0",
+  "description": "vue mixin/directive that does something when you click outside a container",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "standard src/*.js",
+    "rollup": "rollup -c .rollup.js",
+    "min": "uglifyjs dist/vue-on-click-outside.js --output dist/vue-on-click-outside.min.js --screw-ie8 --compress --mangle",
+    "build": "npm run test && npm run rollup && npm run min",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmohrf/vue-on-click-outside.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "directive"
+  ],
+  "author": "Konrad Mohrfeldt <konrad.mohrfeldt@farbdev.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmohrf/vue-on-click-outside/issues"
+  },
+  "homepage": "https://github.com/kmohrf/vue-on-click-outside#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "standard": "^8.6.0",
+    "uglifyjs": "^2.4.10"
+  }
+}
