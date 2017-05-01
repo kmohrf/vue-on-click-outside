@@ -1,6 +1,6 @@
 {
   "name": "vue-on-click-outside",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue mixin/directive that does something when you click outside a container",
   "main": "dist/vue-on-click-outside.js",
   "scripts": {
