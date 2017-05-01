@@ -7,8 +7,8 @@
     "test": "standard src/*.js",
     "rollup": "rollup -c .rollup.js",
     "min": "uglifyjs dist/vue-on-click-outside.js --output dist/vue-on-click-outside.min.js --screw-ie8 --compress --mangle",
-    "build": "npm run test && npm run rollup && npm run min",
-    "prepublish": "npm run build"
+    "build": "yarn run test && yarn run rollup && yarn run min",
+    "prepublish": "yarn run build"
   },
   "repository": {
     "type": "git",
