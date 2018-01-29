@@ -8,7 +8,7 @@ function on (el, event, callback) {
 
 function dynamicStrategy (el, callback) {
   let hasMouseOver = false
-  const enterListener = on(el, 'mouseenter', () => { hasMouseOver = true })
+  const enterListener = on(el, 'mouseover', () => { hasMouseOver = true })
   const leaveListener = on(el, 'mouseleave', () => { hasMouseOver = false })
 
   return {
